@@ -9,8 +9,8 @@ import {faAddressBook, faMessage, faUserPlus, faComments} from '@fortawesome/fre
 
 
 export default function Sidebar({id}) {
-    const  CONVERSATIONS_KEY = 'conversations';
-    const  CONTACTS_KEY = 'contacts';
+    // const  CONVERSATIONS_KEY = 'conversations';
+    // const  CONTACTS_KEY = 'contacts';
     const [leftTabOn, setLeftTabOn] = useState(true);
     const conversationsOpen = leftTabOn ? <FontAwesomeIcon icon={faComments} /> : <FontAwesomeIcon icon={faUserPlus} />;
     const [isModalOpened, setIsModalOpened] = useState(false);
